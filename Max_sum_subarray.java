@@ -49,14 +49,18 @@ public class Max_sum_subarray {
             maxSum=Math.max(currSum,maxSum);
 
         }
-        System.out.println("maxsum using kadane algorithm "+maxSum);
+        System.out.println("max sum using kadane algorithm "+maxSum);
     }
     public static void main(String []args)
     {
-        int arr[]={-2, -3, 4, -1, -2, 1, 5, -3};
+//        int arr[]={-2, -3, 4, -1, -2, 1, 5, -3};
+        int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
+        int arr[]={-2 ,-3 ,4 ,-1 ,-2 ,1, 5};
         findSum(arr);
 
         kadaneSum(arr);
+        kadaneSum(nums);
+
 
     }
 }
