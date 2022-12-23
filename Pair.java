@@ -16,34 +16,34 @@ public class Pair {
 //        System.out.print(tpair);
 //    }
 
-    // print sub array
-//    public static void subArray(int arr[])
-//    {
-//        int total=0;
-//        int sum=0;
-//        for(int i=0;i<arr.length;i++)
-//        {
-//            int start= i;
-//            for(int j=i;j<arr.length;j++)
-//            {
-//                int end=j;
-//                for(int k=start;k<=end;k++)
-//                {
-//                    System.out.print(arr[k]+" ");
-//
-//
-//                }
-//                sum+= arr[j];
-//                total++;
-//
-//                System.out.println();
-//
-//            }
-//            System.out.println();
-//        }
-//        System.out.println(total);
-//        System.out.println(sum);
-//    }
+//     print sub array
+    public static void subArray(int arr[])
+    {
+        int total=0;
+        int sum=0;
+        for(int i=0;i<arr.length;i++)
+        {
+            int start= i;
+            for(int j=i;j<arr.length;j++)
+            {
+                int end=j;
+                for(int k=start;k<=end;k++)
+                {
+                    System.out.print(arr[k]+" ");
+
+
+                }
+                sum+= arr[j];
+                total++;
+
+                System.out.println();
+
+            }
+            System.out.println();
+        }
+        System.out.println(total);
+        System.out.println(sum);
+    }
 
 
 
@@ -81,8 +81,8 @@ public class Pair {
 //        printpair(arr);
 
 //        System.out.println("sub array");
-//        subArray(arr);
-        maxiSum(arr);
+        subArray(arr);
+//        maxiSum(arr);
 
 
     }
